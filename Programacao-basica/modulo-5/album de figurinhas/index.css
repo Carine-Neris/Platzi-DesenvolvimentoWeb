@@ -1,0 +1,21 @@
+h1 {
+   color:rgb(254, 29, 50);
+   font-weight: 1000;
+   font-family: 'Optima', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    border-style: solid;
+    border-color: hsla(157, 79%, 24%, 0.829);
+    padding: 20px;
+    text-align: center;
+    background: rgb(111, 230, 111);
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+body > img{
+    border-style:solid;
+    border-color: hsla(157, 79%, 24%, 0.829);
+    margin-left: 550px;
+}
