@@ -1,0 +1,25 @@
+{
+  "name": "curso-platzi",
+  "version": "1.0.0",
+  "description": "Este é um projeto de teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carine-Neris/Platzi-DesenvolvimentoWeb.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Carine Neris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Carine-Neris/Platzi-DesenvolvimentoWeb/issues"
+  },
+  "homepage": "https://github.com/Carine-Neris/Platzi-DesenvolvimentoWeb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

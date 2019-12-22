@@ -13,7 +13,4 @@ array.pop(); // remove o ultimo elemento
 
 //acessar um elemento do arrey
 console.log(array[2]);
-//-------------------------------------------------------//
-
-//Objetos
 
