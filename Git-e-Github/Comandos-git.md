@@ -50,6 +50,14 @@
     * volta "No tempo" mas não descarta o histórico do git, não são realizadas modificações na linha de commits.
     * git checkout master volta para o commit "principal".
 
+- git branch 
+    * Criar uma ramificação, apartir do repositorio em que o comando foi rodado.
+
+- git checkout [nome da branch]
+    * Trocar de branch
+    * **Git checkout -b [nome da branch]**: cria uma nova branch e muda de branch com um único comando.
+
+
 -------------------------------------------------------------
 
 - O head é onde fica a versão mais atualizado do código. Onde está o último commit.
