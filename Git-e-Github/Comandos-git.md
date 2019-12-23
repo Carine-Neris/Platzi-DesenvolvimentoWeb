@@ -57,10 +57,40 @@
     * Trocar de branch
     * **Git checkout -b [nome da branch]**: cria uma nova branch e muda de branch com um único comando.
 
+- git remote add origin [url do repositorio remoto]
+    * adicionar um repositorio remoto ao projeto.
+
+- git remote -v 
+    * listar quais repositorios remotos estão conectados ao projeto.
+
 
 -------------------------------------------------------------
 
 - O head é onde fica a versão mais atualizado do código. Onde está o último commit.
 
 - Cada commit tem um hash único que identifica aquele commit.
+
+-------------------------------------------------------------------------
+## Gerar par Criptográfico
+
+##### No terminal:<br>
+
+    > ssh-keygen -t rsa -b + [quantidade de bits = 4096] -C "[e-mail do github]"
+
+##### Criar o servidor que gerencia a cominicação ssh:<br>
+
+    > eval "$(ssh-agent -s)"
+
+##### Adicionar a Chave privada ao gente ssh
+
+    > ssh-add [caminho da chave (ex: /.ssh/.id_rsa) ] 
+
+
+## Enviar Chave para o Github
+
+- Pegar a chave pública no computador.
+- Acessar o settings no GitHub
+- Ir para SSH and GPG keys
+- Clicar em New SSH Key
+- Cria titulo e colar a chave pública no campo key.
 
