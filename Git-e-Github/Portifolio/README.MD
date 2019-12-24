@@ -13,5 +13,5 @@ Se você quiser saber mais sobre mim pode acessar [meu GitHub](https://github.co
 
 ## Linguagens de programação que gosto
 
-## Python
-## JavaScript
+- Python
+- JavaScript
