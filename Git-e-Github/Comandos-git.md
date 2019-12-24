@@ -13,7 +13,8 @@
     * Mostra todas as mudanças que fizemos.<br>
     * **git log --all**: Mostra todos os logs.<br>
     * **git log --all --graph**: Grafico dos logs.<br>
-    * **git log --all --graph --decorate --oneline**: Mostra o grafico dos logs de forma mais sucinta.
+    * **git log --all --graph --decorate --oneline**: Mostra o grafico dos logs de forma mais sucinta.<br>
+    * **git log --author + [nome do author do commit]**: mostra os commits realizados por um autor especifico.
 
 - git status 
     * mostra quais arquivos foram alterados.
@@ -74,6 +75,31 @@
     * **git show-ref --tags**: mostra a qual commit as tags estão relacionadas<br>
     * **git push --tags**: Enviar tags para o repo remoto.<br>
     * **git tag -d + [numero da tag]**: Remove a tag
+
+- git rebase + [branch]
+    * git rebase --continue
+
+- git clean
+    * Retirar um arquivo do git/projeto
+
+- git stash
+    * git stash list
+    * git stash apply
+    * git stash pop
+    * git stash drop
+
+- git cherry-pick + [hash do commit]
+    * Pegar um commit especifico de uma branch para outra
+
+- git commit --amend
+    * adiciona uma modificação a um commit já existente
+
+- git reflog
+    * Parecido com o git log porém mais completo; mostra o histórico completo, inclusive coisas deletadas.
+
+- git grep + [palavra que esteja em algum arquivo]
+    * **git grep -c + [palavra]** : diz quantas vezes aquela palavra aparece nos arquivos.
+
 ---------------------------------------------------------------------
 
 - O head é onde fica a versão mais atualizado do código. Onde está o último commit.
