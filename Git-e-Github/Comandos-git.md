@@ -10,7 +10,10 @@
     **obs**: o -m serve para adicionarmos o comentario no memento de salvar
 
 - git log
-    * Mostra todas as mudanças que fizemos.
+    * Mostra todas as mudanças que fizemos.<br>
+    * **git log --all**: Mostra todos os logs.<br>
+    * **git log --all --graph**: Grafico dos logs.<br>
+    * **git log --all --graph --decorate --oneline**: Mostra o grafico dos logs de forma mais sucinta.
 
 - git status 
     * mostra quais arquivos foram alterados.
@@ -63,8 +66,15 @@
 - git remote -v 
     * listar quais repositorios remotos estão conectados ao projeto.
 
+- git config --global alias.[nome que queremos dar] "nome do comando que queremos mudar o nome".
+    * Comando para simplificar comandos muito longos.
 
--------------------------------------------------------------
+- git tag -a + [versao] + [hash do commit que queremos versionar]
+    * **git tag**: mostra as tags que tem no repo<br>
+    * **git show-ref --tags**: mostra a qual commit as tags estão relacionadas<br>
+    * **git push --tags**: Enviar tags para o repo remoto.<br>
+    * **git tag -d + [numero da tag]**: Remove a tag
+---------------------------------------------------------------------
 
 - O head é onde fica a versão mais atualizado do código. Onde está o último commit.
 
