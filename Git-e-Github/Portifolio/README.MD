@@ -10,3 +10,8 @@ Se você quiser saber mais sobre mim pode acessar [meu GitHub](https://github.co
 
 - Desenvolvimento Web
 - Git e GitHub
+
+## Linguagens de programação que gosto
+
+## Python
+## JavaScript
